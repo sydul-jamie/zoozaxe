@@ -346,7 +346,7 @@ color: white;
 .rotate {
     position: absolute;
     padding: -5px;
-    left: 175px;
+    left: 82px;
     border-bottom: 30px solid red;
     border-left: 31px solid transparent;
     border-right:29px solid transparent;
@@ -363,5 +363,41 @@ color: white;
     z-index: 5;
 }
 
+
+.position-absulate{
+  position: relative;
+  left:-40px;
+  top:65px;
+  background: black;
+  color: white;
+  z-index: 2;
+
+}
+
+.position-absulate-right{
+  position: relative;
+  left:150px;
+  top:65px;
+  background: blue;
+  color: white;
+  z-index: 2;
+
+}
+
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+
+.font-20{
+  font-size: 12px;
+  line-height:1.5;
+}
+
+
+.margin-top-125px{
+margin-top: -50px;
+}
 
 }
